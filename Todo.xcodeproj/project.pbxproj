@@ -19,17 +19,21 @@
 		DA00E06817C8EE0E00E42C92 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA00E06617C8EE0E00E42C92 /* MainStoryboard_iPhone.storyboard */; };
 		DA00E06B17C8EE0E00E42C92 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA00E06917C8EE0E00E42C92 /* MainStoryboard_iPad.storyboard */; };
 		DA00E06E17C8EE0E00E42C92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E06D17C8EE0E00E42C92 /* ViewController.m */; };
+		DA00E07617C92F9E00E42C92 /* ItemsDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E07517C92F9E00E42C92 /* ItemsDataStore.m */; };
+		DA00E07917C9435C00E42C92 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA00E07717C9435C00E42C92 /* Model.xcdatamodeld */; };
+		DA00E07C17C9445100E42C92 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E07B17C9445100E42C92 /* Item.m */; };
+		DA00E07E17C94AB900E42C92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00E07D17C94AB900E42C92 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA00E04B17C8EE0E00E42C92 /* Todo Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA00E04B17C8EE0E00E42C92 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA00E04E17C8EE0E00E42C92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA00E05017C8EE0E00E42C92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA00E05217C8EE0E00E42C92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DA00E05617C8EE0E00E42C92 /* Todo Example App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Todo Example App-Info.plist"; sourceTree = "<group>"; };
+		DA00E05617C8EE0E00E42C92 /* Todo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Todo-Info.plist"; sourceTree = "<group>"; };
 		DA00E05817C8EE0E00E42C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA00E05A17C8EE0E00E42C92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA00E05C17C8EE0E00E42C92 /* Todo Example App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Todo Example App-Prefix.pch"; sourceTree = "<group>"; };
+		DA00E05C17C8EE0E00E42C92 /* Todo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Todo-Prefix.pch"; sourceTree = "<group>"; };
 		DA00E05D17C8EE0E00E42C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA00E05E17C8EE0E00E42C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DA00E06017C8EE0E00E42C92 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -39,6 +43,12 @@
 		DA00E06A17C8EE0E00E42C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		DA00E06C17C8EE0E00E42C92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DA00E06D17C8EE0E00E42C92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA00E07417C92F9E00E42C92 /* ItemsDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsDataStore.h; sourceTree = "<group>"; };
+		DA00E07517C92F9E00E42C92 /* ItemsDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsDataStore.m; sourceTree = "<group>"; };
+		DA00E07817C9435C00E42C92 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		DA00E07A17C9445100E42C92 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		DA00E07B17C9445100E42C92 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		DA00E07D17C94AB900E42C92 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA00E07E17C94AB900E42C92 /* CoreData.framework in Frameworks */,
 				DA00E04F17C8EE0E00E42C92 /* UIKit.framework in Frameworks */,
 				DA00E05117C8EE0E00E42C92 /* Foundation.framework in Frameworks */,
 				DA00E05317C8EE0E00E42C92 /* CoreGraphics.framework in Frameworks */,
@@ -58,7 +69,8 @@
 		DA00E04217C8EE0E00E42C92 = {
 			isa = PBXGroup;
 			children = (
-				DA00E05417C8EE0E00E42C92 /* Todo Example App */,
+				DA00E07D17C94AB900E42C92 /* CoreData.framework */,
+				DA00E05417C8EE0E00E42C92 /* Todo */,
 				DA00E04D17C8EE0E00E42C92 /* Frameworks */,
 				DA00E04C17C8EE0E00E42C92 /* Products */,
 			);
@@ -67,7 +79,7 @@
 		DA00E04C17C8EE0E00E42C92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA00E04B17C8EE0E00E42C92 /* Todo Example App.app */,
+				DA00E04B17C8EE0E00E42C92 /* Todo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,27 +94,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA00E05417C8EE0E00E42C92 /* Todo Example App */ = {
+		DA00E05417C8EE0E00E42C92 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
 				DA00E05D17C8EE0E00E42C92 /* AppDelegate.h */,
 				DA00E05E17C8EE0E00E42C92 /* AppDelegate.m */,
+				DA00E07417C92F9E00E42C92 /* ItemsDataStore.h */,
+				DA00E07517C92F9E00E42C92 /* ItemsDataStore.m */,
+				DA00E07717C9435C00E42C92 /* Model.xcdatamodeld */,
+				DA00E07A17C9445100E42C92 /* Item.h */,
+				DA00E07B17C9445100E42C92 /* Item.m */,
 				DA00E06617C8EE0E00E42C92 /* MainStoryboard_iPhone.storyboard */,
 				DA00E06917C8EE0E00E42C92 /* MainStoryboard_iPad.storyboard */,
 				DA00E06C17C8EE0E00E42C92 /* ViewController.h */,
 				DA00E06D17C8EE0E00E42C92 /* ViewController.m */,
 				DA00E05517C8EE0E00E42C92 /* Supporting Files */,
 			);
+			name = Todo;
 			path = "Todo Example App";
 			sourceTree = "<group>";
 		};
 		DA00E05517C8EE0E00E42C92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA00E05617C8EE0E00E42C92 /* Todo Example App-Info.plist */,
+				DA00E05617C8EE0E00E42C92 /* Todo-Info.plist */,
 				DA00E05717C8EE0E00E42C92 /* InfoPlist.strings */,
 				DA00E05A17C8EE0E00E42C92 /* main.m */,
-				DA00E05C17C8EE0E00E42C92 /* Todo Example App-Prefix.pch */,
+				DA00E05C17C8EE0E00E42C92 /* Todo-Prefix.pch */,
 				DA00E06017C8EE0E00E42C92 /* Default.png */,
 				DA00E06217C8EE0E00E42C92 /* Default@2x.png */,
 				DA00E06417C8EE0E00E42C92 /* Default-568h@2x.png */,
@@ -113,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA00E04A17C8EE0E00E42C92 /* Todo Example App */ = {
+		DA00E04A17C8EE0E00E42C92 /* Todo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA00E07117C8EE0E00E42C92 /* Build configuration list for PBXNativeTarget "Todo Example App" */;
+			buildConfigurationList = DA00E07117C8EE0E00E42C92 /* Build configuration list for PBXNativeTarget "Todo" */;
 			buildPhases = (
 				DA00E04717C8EE0E00E42C92 /* Sources */,
 				DA00E04817C8EE0E00E42C92 /* Frameworks */,
@@ -125,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = "Todo Example App";
+			name = Todo;
 			productName = "Todo Example App";
-			productReference = DA00E04B17C8EE0E00E42C92 /* Todo Example App.app */;
+			productReference = DA00E04B17C8EE0E00E42C92 /* Todo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +157,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Barry Clark";
 			};
-			buildConfigurationList = DA00E04617C8EE0E00E42C92 /* Build configuration list for PBXProject "Todo Example App" */;
+			buildConfigurationList = DA00E04617C8EE0E00E42C92 /* Build configuration list for PBXProject "Todo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -151,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA00E04A17C8EE0E00E42C92 /* Todo Example App */,
+				DA00E04A17C8EE0E00E42C92 /* Todo */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +198,9 @@
 				DA00E05B17C8EE0E00E42C92 /* main.m in Sources */,
 				DA00E05F17C8EE0E00E42C92 /* AppDelegate.m in Sources */,
 				DA00E06E17C8EE0E00E42C92 /* ViewController.m in Sources */,
+				DA00E07617C92F9E00E42C92 /* ItemsDataStore.m in Sources */,
+				DA00E07917C9435C00E42C92 /* Model.xcdatamodeld in Sources */,
+				DA00E07C17C9445100E42C92 /* Item.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +296,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Todo Example App/Todo Example App-Prefix.pch";
-				INFOPLIST_FILE = "Todo Example App/Todo Example App-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Todo Example App/Todo-Prefix.pch";
+				INFOPLIST_FILE = "Todo Example App/Todo-Info.plist";
+				PRODUCT_NAME = Todo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -286,9 +307,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Todo Example App/Todo Example App-Prefix.pch";
-				INFOPLIST_FILE = "Todo Example App/Todo Example App-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Todo Example App/Todo-Prefix.pch";
+				INFOPLIST_FILE = "Todo Example App/Todo-Info.plist";
+				PRODUCT_NAME = Todo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -296,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA00E04617C8EE0E00E42C92 /* Build configuration list for PBXProject "Todo Example App" */ = {
+		DA00E04617C8EE0E00E42C92 /* Build configuration list for PBXProject "Todo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA00E06F17C8EE0E00E42C92 /* Debug */,
@@ -305,15 +326,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA00E07117C8EE0E00E42C92 /* Build configuration list for PBXNativeTarget "Todo Example App" */ = {
+		DA00E07117C8EE0E00E42C92 /* Build configuration list for PBXNativeTarget "Todo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA00E07217C8EE0E00E42C92 /* Debug */,
 				DA00E07317C8EE0E00E42C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA00E07717C9435C00E42C92 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA00E07817C9435C00E42C92 /* Model.xcdatamodel */,
+			);
+			currentVersion = DA00E07817C9435C00E42C92 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DA00E04317C8EE0E00E42C92 /* Project object */;
 }
